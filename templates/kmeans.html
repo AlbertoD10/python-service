@@ -1,0 +1,15 @@
+{% block content %}
+<div class="card text-center">
+  <h3 class="client-seg">El cliente pertenece al segmento: {{user_id}}</h3 class="client-seg">
+<div class="card-body">
+<img class="img-fluid" src="data:image/png;base64,{{imagesData.image[0]}}" />
+<img class="img-fluid" src="data:image/png;base64,{{imagesData.image[1]}}" />
+<img class="img-fluid" src="data:image/png;base64,{{imagesData.image[2]}}" />
+<img class="img-fluid" src="data:image/png;base64,{{imagesData.image[3]}}" />
+<img class="img-fluid" src="data:image/png;base64,{{imagesData.image[4]}}" />
+<img class="img-fluid" src="data:image/png;base64,{{imagesData.image[5]}}" />
+<img class="img-fluid" src="data:image/png;base64,{{imagesData.image[6]}}" />
+</div>
+</div>
+
+{% endblock %}
